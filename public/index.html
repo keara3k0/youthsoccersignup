@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Soccer Signup</title>
+  </head>
+  <body>
+    <section class="formHome">
+      <section class="signup">
+        <h1>Youth Soccer Signup ⚽</h1>
+        <form action="/signup" method="POST">
+          <div>
+            <label for="firstname" id="firstname">First Name: </label>
+            <input type="text" name="firstname" id="firstnameinput" required />
+          </div>
+          <div>
+            <label for="lastname" id="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastnameinput" required />
+          </div>
+          <div>
+            <label for="email" id="email">Email:</label>
+            <input type="text" name="email" id="emailinput" required />
+          </div>
+          <button type="submit">Sign Up!</button>
+        </form>
+      </section>
+    </section>
+  </body>
+</html>
