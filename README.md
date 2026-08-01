@@ -13,7 +13,7 @@ application without using a framework.
 - Validates required fields before completing registration.
 - Displays a success page after a valid submission.
 - Displays an error page when required information is missing.
-- Server multiple HTML pages from a Node.js server.
+- Serve multiple HTML pages from a Node.js server.
 - Loads separate CSS stylesheets for each page.
 - Writes player information to a JSON data file.
 
