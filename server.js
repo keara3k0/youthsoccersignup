@@ -105,7 +105,7 @@ const server = http.createServer((req, res) => {
         });
       } else if (ready.isValid === true) {
         fs.appendFileSync(
-          "members.json",
+          "./data/members.json",
           JSON.stringify(finishedSignUp) + "\n",
 
           (err) => {
