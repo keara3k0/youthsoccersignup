@@ -22,13 +22,30 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Ctext x='65' y='75' font-size='34' opacity='0.12'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Ctext x='80' y='110' font-size='34' opacity='0.18'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"),
+    linear-gradient(
+      135deg,
+      rgb(72, 1, 159, 0.84),
+      rgba(196, 108, 255, 0.855),
+      rgb(189, 148, 255, 0.788)
+    );
+  background-size:
+    160px 160px,
+    230px 230px,
+    cover;
+  background-position:
+    0px 0px,
+    center;
+  background-repeat: repeat, repeat, no-repeat;
 }
 
 .signup {
   border: 1px solid #ac6ec4;
   border-radius: 50px;
   width: 60%;
-  height: 75%;
+  height: 80%;
   display: flex;
   background-color: #ac6ec4;
   box-shadow: 1px 1px 5px #0a0a0a;
@@ -43,7 +60,7 @@ form {
   border: 1px solid #c8a9ee;
   border-radius: 50px;
   width: 60%;
-  height: 60%;
+  height: 70%;
   display: flex;
   background-color: #c8a9ee;
   box-shadow: 1px 1px 5px black;
@@ -74,6 +91,14 @@ div input {
   box-sizing: border-box;
   padding: 0.8rem 0 0.3rem;
   font-size: 1.1rem;
+}
+
+select {
+  border: none;
+  width: 10rem;
+  margin-right: 3rem;
+  font-size: 1.1rem;
+  background-color: #c8a9ee;
 }
 
 button {
